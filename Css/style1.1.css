@@ -1,3 +1,4 @@
+/*Color de fondo*/
 body{
     background-color: rgb(0, 0, 0);
     width: 100%;
@@ -7,26 +8,35 @@ body{
     align-items: center;
     font-family: sans-serif;
 }
+
+
+/* Logo de login */
 .head{
 position: absolute;
 top: 0px;
 right: 1cm;
 }
 
+/*Medidas del login */
 .login{
     width: 29px;
     height: 29px;
 }
 
+/*Posición del enlace "Registrate" */
 .check{
     position: relative;
     bottom: 0.2cm;
 }
+
+/*Cambia la medida de la tabla de la derecha*/
 .container{
     width: 100%;
     display: flex;
     max-width: 1100px;
 }
+
+/*Diseño  de las tablas*/
 .card{
     width: 79%;
     margin: 25px;
@@ -44,12 +54,14 @@ right: 1cm;
     transition: all 400ms ease;
 }
 
+/*Agrega efecto a las tablas*/
 .card:hover{
     box-shadow: 5px 5px 20px rgba(0,0, 0,0.5);
     transform: translateY(-1%);
 
 } 
 
+/*Imagen izquierdo*/
 .img{
     position: relative;
     left: 20%;
@@ -57,13 +69,14 @@ right: 1cm;
   height: 225px;
   border-radius: 6px;
 }
-
+/*Imagen derecho*/
 .imagen{
     position: relative;
     left: 20%;
     border-radius: 6px;
 }
 
+/*Botones de las tablas */
 .button{
     position: absolute;
     align-items: center;
@@ -80,8 +93,10 @@ right: 1cm;
     padding: 5px;
  
 }
+
+/*Información de la tabla*/
 .text{
     position: relative;
-    left: 5px;
+    left: 50px;
     text-align: left;
 }

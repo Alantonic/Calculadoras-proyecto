@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.head{
+    position: absolute;
+    top: 0px;
+    right: 1cm;
+}
+
+.Regresar{
+    width: 29px;
+    height: 29px;
+}
+
+.check{
+position: absolute;
+top: 0px;
+right: 1cm;
+bottom: 10px;
+}
+
+.container{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    bottom: 500px;
+
+    max-width: 1100px;
+    
+}
+
+.card{
+    width: 50%;
+    height: 50%; /*altura de la tabla*/
+    margin: calc(350px - 150px);
+    padding: calc(34px + 50px);
+    border: solid wheat;
+    border-radius: 7px;
+    overflow: hidden;
+    background-image:linear-gradient(
+        150deg,
+        #014284,
+        #40b6e4,
+        #A7CCDF
+    );
+    box-shadow:0px,1px,10px,rgba(0,0 0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+/* Mueve la tabla rectangular*/
+#display {
+    position: relative;
+    font-size: 32px;
+    box-sizing: border-box;
+    text-align: right;
+    border: 2px solid black;
+    height: 6%;
+    top: -25px;
+    margin: 0.5cm;
+    width: 50%;
+}
+
+/*Usamos directamenter button para manipular el diseño*/
+.b1 button{
+height: 35px;
+min-width: 50px;
+margin-bottom: 15px;
+}
+
+
+/*Nos dirigimos al contenido dentro de button*/
+.b1{
+    gap: 10px;
+    display: flex;
+    justify-content: flex-start;    /* Izquierda ← */
+   /*  justify-content: center;   "Centro"     
+    justify-content: flex-end;      "Derecha"
+    justify-content: space-between;  "En medio"
+    justify-content: space-around;  "Alrededor"
+    justify-content: space-evenly;  */ 
+    margin-bottom: 10px;
+    height: 30px;
+    min-width: 55px;
+    font-size: 20px;
+}
+.Botones-fila{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.Botones-fila button{
+    flex: 1;
+    height: 30px;
+    min-width: 55px;
+    font-size: 20px;
+}
+
+.Boton{
+    display: flex;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;    /* Izquierda ← */
+    position: relative;
+    left: -76px;
+   /*  justify-content: center;   "Centro"     
+    justify-content: flex-end;      "Derecha"
+    justify-content: space-between;  "En medio"
+    justify-content: space-around;  "Alrededor"
+    justify-content: space-evenly;  */ 
+    margin-bottom: 10px;
+    
+}
+
+.Boton button{
+    min-width: 68px;
+    height: 30px;
+    font-size: 20px;
+}

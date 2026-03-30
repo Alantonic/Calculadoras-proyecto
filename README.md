@@ -1,10 +1,10 @@
-</ Presentación>
+# Presentación
 Esto es un proyecto propio de una pagina web, cuyo proposito es comprender herramientas basicas 
 para la creación de paginas web funcionales e interactivas para el usuario, ademas de aplicar 
 conocimiento aprendido a base de proyectos universtiario. Se piensa desarrollar dos calculadoras 
 diferentes y funcionales, ademas de guardar proyectos diferentes en la misma pagina.
 
-#Lenguajes utilizados
+# Lenguajes utilizados
 
   **HTML** 
   Es una lenguaje de marcado que se utiliza para organizar contenido, fuera de lo que es de logica o
@@ -30,7 +30,7 @@ diferentes y funcionales, ademas de guardar proyectos diferentes en la misma pag
     los usuarios puedan hacer operaciones de forma sencilla y visual.
   - Calculadora Cientifica: En desarrollo.
 
-  #Estructura del proyecto
+  # Estructura del proyecto
 
   El proyecto está organizado en diferentes carpetas para separar responsabilidades:
 
